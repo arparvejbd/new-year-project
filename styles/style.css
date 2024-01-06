@@ -99,12 +99,18 @@ main {
 }
 /* footer section styles */
 .footer-container {
-    padding: 70px 215px;
+    padding: 70px 215px 90px;
     background-color: #151414;
     color: #FFF;
     display: flex;
     gap: 20em;
 }
+/* .social-column {
+    margin-top: 87px;
+}
+.form-column {
+    margin-top: 110px;
+} */
 .social-column ul {
     list-style-type: none;
     display: flex;
@@ -122,18 +128,21 @@ main {
     line-height: 26px;
 }
 .form-column h3 {
-font-size: 25px;
-font-weight: 600;
+    font-size: 25px;
+    font-weight: 600;
 }
 .form-column #email {
     border-radius: 8px;
     border: 1px solid #FFF;
     height: 64px;
+    width: 325px;
     margin-bottom: 10px;
     background-color: transparent;
-    padding: 0 20px;
+    padding: 0 18px;
     font-size: 18px;
     font-weight: 400;
+}
+#email::placeholder {
     color: #ffffff;
 }
 .form-column #submit {
