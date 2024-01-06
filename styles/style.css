@@ -20,15 +20,16 @@ header {
 header .header-container {
     color: #FFF;
     text-align: right;
-    padding: 150px;
+    padding: 200px 215px 215px 50px;
 }
 .header-title {
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 700;
 }
 .header-description {
     font-size: 16px;
     font-weight: 400;
+    line-height: 30px;
 }
 .btn-primary {
     color: #005FAC;
@@ -42,7 +43,7 @@ header .header-container {
 
 /* main section styles */
 main {
-    margin: 0 150px;
+    margin: 0 215px;
 }
 .main-first-part {
     display: flex;
@@ -88,11 +89,61 @@ main {
     url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 50% 50px 50px;
+    padding: 40px 50% 40px 50px;
     border-radius: 8px;
 }
 .call-part h3 {
     font-size: 40px;
     font-weight: 700;
     color: #FFF;
+}
+/* footer section styles */
+.footer-container {
+    padding: 70px 215px;
+    background-color: #151414;
+    color: #FFF;
+    display: flex;
+    gap: 20em;
+}
+.social-column ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    padding: 0;
+}
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+.social-column p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.form-column h3 {
+font-size: 25px;
+font-weight: 600;
+}
+.form-column #email {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    height: 64px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.form-column #submit {
+    border-radius: 8px;
+    background: #005FAC;
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 0;
 }
