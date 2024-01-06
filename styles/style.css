@@ -3,7 +3,11 @@ body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
-
+.primary-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* header section styles */
 header {
@@ -37,3 +41,43 @@ header .header-container {
 }
 
 /* main section styles */
+main {
+    margin: 0 150px;
+}
+.main-first-part {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.main-part {
+    margin-top: 100px;
+}
+.failure-blog p, .failure-blog li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.popular-list li {
+    list-style-image: url('../images/icons/check-1.png');
+}
+.primary-title {
+    text-align: center;
+}
+.plan-section ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
