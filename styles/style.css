@@ -99,18 +99,18 @@ main {
 }
 /* footer section styles */
 .footer-container {
-    padding: 70px 215px 90px;
+    padding: 0px 215px 90px;
     background-color: #151414;
     color: #FFF;
     display: flex;
     gap: 20em;
 }
-/* .social-column {
+.social-column {
     margin-top: 87px;
 }
 .form-column {
     margin-top: 110px;
-} */
+}
 .social-column ul {
     list-style-type: none;
     display: flex;
